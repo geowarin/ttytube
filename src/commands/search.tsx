@@ -1,8 +1,8 @@
 import * as React from "react";
-import { Command, flags } from '@oclif/command';
-import { Box, render, Text } from 'ink';
-import { search, SearchResult } from "../search/search";
-import { readFileSync } from "fs";
+import {Command, flags} from '@oclif/command';
+import {Box, render, Text} from 'ink';
+import {search, SearchResult} from "../search/search";
+import {readFileSync} from "fs";
 
 export default class Search extends Command {
   static description = 'search for stuff on youtube';
@@ -13,11 +13,11 @@ export default class Search extends Command {
   }
 
   static args = [
-    { name: 'search' }
+    {name: 'search'}
   ];
 
   async run() {
-    const { args, flags } = this.parse(Search);
+    const {args, flags} = this.parse(Search);
 
     let results;
     if (flags.file) {
@@ -33,7 +33,7 @@ export default class Search extends Command {
     if (flags.json) {
       this.log(JSON.stringify(results, null, 2));
     } else {
-      render(<SearchScreen results={results} />);
+      render(<SearchScreen results={results}/>);
     }
   }
 }
@@ -41,28 +41,34 @@ export default class Search extends Command {
 interface SearchScreenProps {
   results: SearchResult[]
 }
-
-const SearchScreen: React.FunctionComponent<SearchScreenProps> = ({ results }) => {
-
+const SearchScreen: React.FunctionComponent<SearchScreenProps> = ({results}) => {
   return (
     <Box flexDirection="column">
-      { results.map(r => (
-        <Box key={r.videoId}>
-          <Box width="60%">
-            <Text color="blue" wrap="truncate">{r.title}</Text>
-          </Box>
-          <Box width="20%">
-            <Text color="magenta" wrap="truncate">{r.author}</Text>
-          </Box>
-          <Box width="10%">
-            <Text color="green" wrap="truncate">{r.viewCount}</Text>
-          </Box>
-          <Box width="10%" alignSelf="flex-end">
-            <Text color="blue" wrap="truncate">{r.length}</Text>
-          </Box>
-        </Box>
+      {results.map(r => (
+        <Line key={r.videoId} searchResult={r}/>
       ))
       }
     </Box>
   );
+};
+
+interface LineProps {
+  searchResult: SearchResult
+}
+const Line: React.FunctionComponent<LineProps> = (props) => {
+  return (
+    <Box>
+      <Box width="60%">
+        <Text color="blue" wrap="truncate">{props.searchResult.title}</Text>
+      </Box>
+      <Box width="20%">
+        <Text color="magenta" wrap="truncate">{props.searchResult.author}</Text>
+      </Box>
+      <Box width="10%">
+        <Text color="green" wrap="truncate">{props.searchResult.viewCount}</Text>
+      </Box>
+      <Box width="10%" alignSelf="flex-end">
+        <Text color="blue" wrap="truncate">{props.searchResult.length}</Text>
+      </Box>
+    </Box>);
 };
