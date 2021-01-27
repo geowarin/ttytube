@@ -12,6 +12,7 @@
     "@oclif/config": "^1.17.0",
     "@oclif/plugin-help": "^3.2.1",
     "cheerio": "^1.0.0-rc.5",
+    "clean-text-utils": "^1.1.17",
     "execa": "^5.0.0",
     "got": "^11.8.1",
     "import-jsx": "^4.0.0",

@@ -1,55 +1,101 @@
 import got from "got";
-import { load } from "cheerio";
+import {load} from "cheerio";
 
 const headers = {
-    "User-Agent": "Mozilla/5.0 (Android 10; Tablet; rv:82.0) Gecko/82.0 Firefox/82.0,gzip(gfe)"
+  "User-Agent": "Mozilla/5.0 (Android 10; Tablet; rv:82.0) Gecko/82.0 Firefox/82.0,gzip(gfe)"
 };
 
 export interface SearchResult {
-    videoId: string
-    title: string
-    viewCount: string
-    length: string
-    author: string
+  videoId: string
+  title: string
+  /**
+   * format: 16,375,072 views
+   */
+  viewCount: string
+  /**
+   * format: 16M views, 69K views
+   */
+  shortViewCount: string
+  /**
+   * format: 5:06
+   */
+  length: string
+  longByline: string
+  //author: string
+  shortByline: string
+  /**
+   * format: "9 months ago" "3 years ago" "5 days ago"
+   */
+  publishedTime: string
 }
 
-export async function search(search: string): Promise<SearchResult[]> {
-    try {
-        const url = `https://m.youtube.com/results?search_query=${search}&hl=en&sp=EgIQAQ%253D%253D`;
-        const response = await got(url, { headers });
+export enum QueryType {
+  "video" = "EgIQAQ%3D%3D",
+  "playlist" = "EgIQAw%3D%3D",
+  "channel" = "EgIQAg%3D%3D",
+}
 
-        const $ = load(response.body);
-        var scripts = $('script:not([src])');
+export async function search(search: string, type: QueryType = QueryType.video): Promise<SearchResult[]> {
+  try {
+    const url = new URL("https://m.youtube.com/results");
+    url.searchParams.set("search_query", search)
+    url.searchParams.set("hl", "en")
+    url.searchParams.set("sp", type)
 
-        const node = scripts.toArray().map(s => {
-            // @ts-ignore
-            const data: string = s.children[0].data;
-            const re = /var\s+ytInitialData\s*=\s*(.*)/;
-            const matchResult = data.match(re)
-            if (matchResult) {
-                return matchResult[1];
-            }
+    const response = await got(url, {headers});
+    const results = parseHtml(response.body);
 
-            return null;
-        }).find(s => s != null);
+    return results.map((r: any) => {
+      return {
+        videoId: r.compactVideoRenderer.videoId,
+        title: getProperty(r, "title", "?"),
+        viewCount: getProperty(r, "viewCountText", "0 views"),
+        shortViewCount: getProperty(r, "shortViewCountText", "0 views"),
+        length: getProperty(r, "lengthText", "live"),
+        longByline: getProperty(r, "longBylineText", "?"),
+        shortByline: getProperty(r, "shortBylineText", "?"),
+        publishedTime: getProperty(r, "publishedTimeText", "?"),
+      }
+    });
+  } catch (error) {
+    throw new Error(`Error during search: ${error.message}`);
+  }
+}
 
-        if (node == null) {
-          throw new Error("Could not parse youtube results");
-        }
+function getProperty(r: any, property: string, defaultValue: string) {
+  return r.compactVideoRenderer[property]?.runs?.[0]?.text ?? defaultValue;
+}
 
-        const ytData = JSON.parse(eval(node));
-        const results = ytData.contents.sectionListRenderer.contents[0].itemSectionRenderer.contents;
+/**
+ * From the html string of a youtube result page,
+ * returns the ytInitialData json object that contains
+ * the search results
+ */
+function parseHtml(html: string) {
+  const $ = load(html);
+  const scripts = $('script:not([src])');
 
-        return results.map((r: any) => {
-            return {
-                videoId: r.compactVideoRenderer.videoId,
-                title: r.compactVideoRenderer.title.runs[0].text,
-                viewCount: r.compactVideoRenderer.viewCountText.runs[0].text,
-                length: r.compactVideoRenderer.lengthText.runs[0].text,
-                author: r.compactVideoRenderer.longBylineText.runs[0].text,
-            }
-        });
-    } catch (error) {
-        throw new Error(`Error during search: ${error.message}`);
+  const node = scripts.toArray().map(s => {
+    // @ts-ignore
+    const data: string = s.children[0].data;
+    const re = /var\s+ytInitialData\s*=\s*(.*)/;
+    const matchResult = data.match(re)
+    if (matchResult) {
+      return matchResult[1];
     }
+
+    return null;
+  }).find(s => s != null);
+
+  if (node == null) {
+    throw new Error("Could not parse youtube results (ytInitialData not found)");
+  }
+
+  const ytData = JSON.parse(eval(node));
+  // Livin' on the edge
+  const results = ytData?.contents?.sectionListRenderer?.contents?.[0]?.itemSectionRenderer?.contents;
+  if (results == null) {
+    throw new Error("Could not parse youtube results (unknown structure)");
+  }
+  return results;
 }
