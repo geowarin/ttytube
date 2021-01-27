@@ -31,7 +31,8 @@ USAGE
 <!-- commands -->
 * [`ttytube hello [FILE]`](#ttytube-hello-file)
 * [`ttytube help [COMMAND]`](#ttytube-help-command)
-* [`ttytube search [FILE]`](#ttytube-search-file)
+* [`ttytube play [FILE]`](#ttytube-play-file)
+* [`ttytube search [SEARCH]`](#ttytube-search-search)
 
 ## `ttytube hello [FILE]`
 
@@ -70,13 +71,13 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
 
-## `ttytube search [FILE]`
+## `ttytube play [FILE]`
 
 describe the command here
 
 ```
 USAGE
-  $ ttytube search [FILE]
+  $ ttytube play [FILE]
 
 OPTIONS
   -f, --force
@@ -84,5 +85,18 @@ OPTIONS
   -n, --name=name  name to print
 ```
 
-_See code: [src/commands/search.ts](https://github.com/geowarin/ttytube/blob/v0.0.0/src/commands/search.ts)_
+_See code: [src/commands/play.ts](https://github.com/geowarin/ttytube/blob/v0.0.0/src/commands/play.ts)_
+
+## `ttytube search [SEARCH]`
+
+search for stuff on youtube
+
+```
+USAGE
+  $ ttytube search [SEARCH]
+
+OPTIONS
+  --file=file  dev: read from file
+  --json       dump results to json
+```
 <!-- commandsstop -->

@@ -1,17 +1,18 @@
 import execa = require("execa");
 
-export async function playVideo(videoId: string, title: string) {
-	try {
+export async function playVideo(videoId: string, title?: string): Promise<execa.ExecaChildProcess> {
+  try {
 
-		var args = [
-			`--really-quiet`,
-			`--force-media-title="${title}"`,
-			`https://www.youtube.com/watch?v=${videoId}`
-		];
+    const args = [
+      `https://www.youtube.com/watch?v=${videoId}`,
+      `--really-quiet`,
+    ];
+    if (title != null) {
+      args.push(`--force-media-title="${title}"`)
+    }
 
-		const stdout = await execa('mpv', args);
-		console.log(stdout);
-	} catch (error) {
-		throw new Error(`Error while playing video ${error}`)
-	}
+    return await execa('mpv', args);
+  } catch (error) {
+    throw new Error(`Error while playing video ${error}`)
+  }
 };

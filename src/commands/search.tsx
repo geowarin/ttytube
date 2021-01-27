@@ -8,8 +8,8 @@ export default class Search extends Command {
   static description = 'search for stuff on youtube';
 
   static flags = {
-    mock: flags.boolean({description: "dev: read from file"}),
-    dump: flags.boolean({description: "dump results to json"})
+    file: flags.string({description: "dev: read from file"}),
+    json: flags.boolean({description: "dump results to json"})
   }
 
   static args = [
@@ -19,16 +19,18 @@ export default class Search extends Command {
   async run() {
     const { args, flags } = this.parse(Search);
 
-
     let results;
-    if (flags.mock) {
-      const file = readFileSync(`mock/${args.search}.json`);
+    if (flags.file) {
+      const file = readFileSync(flags.file);
       results = JSON.parse(file.toString()) as SearchResult[];
     } else {
+      if (args.search == null) {
+        throw new Error("No search query");
+      }
       results = await search(args.search);
     }
 
-    if (flags.dump) {
+    if (flags.json) {
       this.log(JSON.stringify(results, null, 2));
     } else {
       render(<SearchScreen results={results} />);
