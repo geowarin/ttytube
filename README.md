@@ -29,10 +29,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`ttytube dump [FILE]`](#ttytube-dump-file)
 * [`ttytube hello [FILE]`](#ttytube-hello-file)
 * [`ttytube help [COMMAND]`](#ttytube-help-command)
-* [`ttytube play [FILE]`](#ttytube-play-file)
+* [`ttytube play [VIDEOID]`](#ttytube-play-videoid)
 * [`ttytube search [SEARCH]`](#ttytube-search-search)
+
+## `ttytube dump [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ ttytube dump [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/dump.ts](https://github.com/geowarin/ttytube/blob/v0.0.0/src/commands/dump.ts)_
 
 ## `ttytube hello [FILE]`
 
@@ -71,18 +88,16 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.1/src/commands/help.ts)_
 
-## `ttytube play [FILE]`
+## `ttytube play [VIDEOID]`
 
 describe the command here
 
 ```
 USAGE
-  $ ttytube play [FILE]
+  $ ttytube play [VIDEOID]
 
 OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  -h, --help  show CLI help
 ```
 
 _See code: [src/commands/play.ts](https://github.com/geowarin/ttytube/blob/v0.0.0/src/commands/play.ts)_

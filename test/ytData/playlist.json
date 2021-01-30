@@ -1,0 +1,3566 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "has_unlimited_entitlement",
+            "value": "False"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "e",
+            "value": "23975726,23944779,23839597,23991737,23972971,23997231,23981908,23744176,23987360,23974595,23897180,23987676,23976578,23969934,23891344,23983487,23882685,23989880,23985624,23916969,23923339,23940703,23884386,23991912,23804281,23987935,23934970,23946420,23951620,23980480,23918597,23988822,23987363,23968386,23997401,1714241"
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "yt_ad",
+            "value": "1"
+          },
+          {
+            "key": "c",
+            "value": "MWEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20210127.04.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetSearch_rid",
+            "value": "0xcf9fdcd0586cef41"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20210127"
+          },
+          {
+            "key": "client.name",
+            "value": "MWEB"
+          }
+        ]
+      }
+    ],
+    "webResponseContextExtensionData": {
+      "ytConfigData": {
+        "visitorData": "CgtaOFRDaTVLTkgtWSiLzdaABg%3D%3D",
+        "rootVisualElementType": 4724
+      },
+      "hasDecorated": true
+    }
+  },
+  "estimatedResults": "301630",
+  "contents": {
+    "sectionListRenderer": {
+      "contents": [
+        {
+          "itemSectionRenderer": {
+            "contents": [
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLJ4CQlZeoQOXmw9_Kmw1aWOX5RcP9O9-g",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Les blagues de Toto"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Toto",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCMQojAYACITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/totobayard",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCfDT_jZZ6DeSx75rLCReM2Q",
+                            "canonicalBaseUrl": "/user/totobayard"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "36"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CCMQojAYACITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLJ4CQlZeoQOXmw9_Kmw1aWOX5RcP9O9-g",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLJ4CQlZeoQOXmw9_Kmw1aWOX5RcP9O9-g"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "36"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CCMQojAYACITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/zRENM-V7_fU/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/TT6GO6SjgOA/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "36",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "ownerBadges": [
+                    {
+                      "metadataBadgeRenderer": {
+                        "icon": {
+                          "iconType": "CHECK_CIRCLE_THICK"
+                        },
+                        "style": "BADGE_STYLE_TYPE_VERIFIED",
+                        "tooltip": "Verified",
+                        "trackingParams": "CCMQojAYACITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                      }
+                    }
+                  ],
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLJ4CQlZeoQOXmw9_Kmw1aWOX5RcP9O9-g",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/Y5VBLAi-Wcg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Toto",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCMQojAYACITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/totobayard",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCfDT_jZZ6DeSx75rLCReM2Q",
+                            "canonicalBaseUrl": "/user/totobayard"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLA2-nXsHvm3KG2IHnCwKWljr1LnkJNXsf",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO - THE SEVENTH ONE [1988]"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Stefan PG Johansson",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCIQojAYASITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCq86a_QcWq4GvipLcwGjNgg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCq86a_QcWq4GvipLcwGjNgg"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "12"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CCIQojAYASITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLA2-nXsHvm3KG2IHnCwKWljr1LnkJNXsf",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLA2-nXsHvm3KG2IHnCwKWljr1LnkJNXsf"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "12"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CCIQojAYASITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/D4t_-cpZ1Rk/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/R1CBfNBArSA/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "12",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLA2-nXsHvm3KG2IHnCwKWljr1LnkJNXsf",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/oDWawTUO5Lk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Stefan PG Johansson",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCIQojAYASITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCq86a_QcWq4GvipLcwGjNgg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCq86a_QcWq4GvipLcwGjNgg"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLS7pJHWEeM_SDPiVhH7LeLlsDWkzydwII",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "The Best of TOTO (vevo)"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "VinylMaster",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCEQojAYAiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/2010stippel",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCE_bp20du-2uV2Z9WQ1dYYQ",
+                            "canonicalBaseUrl": "/user/2010stippel"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "17"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CCEQojAYAiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLS7pJHWEeM_SDPiVhH7LeLlsDWkzydwII",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLS7pJHWEeM_SDPiVhH7LeLlsDWkzydwII"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "17"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CCEQojAYAiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/bYr3OJOXk60/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/QCq9751mOFo/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "17",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLS7pJHWEeM_SDPiVhH7LeLlsDWkzydwII",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/r7XhWUDj-Ts/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "VinylMaster",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCEQojAYAiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/2010stippel",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCE_bp20du-2uV2Z9WQ1dYYQ",
+                            "canonicalBaseUrl": "/user/2010stippel"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLT4F1mMYyEz46csJHK3loxETRcP7fTQNA",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/0awq5l5GERE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/0awq5l5GERE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/0awq5l5GERE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO (1978)"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tnet",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCAQojAYAyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/alexito310797",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCFVyydudc5V5nH61wl9jaHA",
+                            "canonicalBaseUrl": "/user/alexito310797"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CCAQojAYAyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLT4F1mMYyEz46csJHK3loxETRcP7fTQNA",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLT4F1mMYyEz46csJHK3loxETRcP7fTQNA"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CCAQojAYAyITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/YpC-UEORtB4/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/l9nMAhTFE5w/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "10",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLT4F1mMYyEz46csJHK3loxETRcP7fTQNA",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/0awq5l5GERE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/0awq5l5GERE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/0awq5l5GERE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tnet",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CCAQojAYAyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/alexito310797",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCFVyydudc5V5nH61wl9jaHA",
+                            "canonicalBaseUrl": "/user/alexito310797"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PL_BdIJECwVa6E4xikqSfrYIY2xmlQJGzs",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/DLxjz06I0ao/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/DLxjz06I0ao/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/DLxjz06I0ao/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO RINA SERIE"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Universal Wash",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB8QojAYBCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCknmnUptQA7VkZN9Mtfc8cQ",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCknmnUptQA7VkZN9Mtfc8cQ"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "16"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CB8QojAYBCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PL_BdIJECwVa6E4xikqSfrYIY2xmlQJGzs",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPL_BdIJECwVa6E4xikqSfrYIY2xmlQJGzs"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "16"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CB8QojAYBCITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/USXJeQBhfxo/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/ZJ4ceN50IVA/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "16",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PL_BdIJECwVa6E4xikqSfrYIY2xmlQJGzs",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/DLxjz06I0ao/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/DLxjz06I0ao/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/DLxjz06I0ao/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Universal Wash",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB8QojAYBCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCknmnUptQA7VkZN9Mtfc8cQ",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCknmnUptQA7VkZN9Mtfc8cQ"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLR2Gw0OrP7JI-T8F2EUN7EnnmjMklRCE0",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Official TOTO Videos"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "TOTO",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB4QojAYBSITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCo0VtmTVw5B1nMlzOX8KW1A",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCo0VtmTVw5B1nMlzOX8KW1A",
+                            "canonicalBaseUrl": "/channel/UCo0VtmTVw5B1nMlzOX8KW1A"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "18"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CB4QojAYBSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLR2Gw0OrP7JI-T8F2EUN7EnnmjMklRCE0",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLR2Gw0OrP7JI-T8F2EUN7EnnmjMklRCE0"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "18"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CB4QojAYBSITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/G01ClDIVhDY/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/_Y2qfmjCmCw/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "18",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "ownerBadges": [
+                    {
+                      "metadataBadgeRenderer": {
+                        "icon": {
+                          "iconType": "OFFICIAL_ARTIST_BADGE"
+                        },
+                        "style": "BADGE_STYLE_TYPE_VERIFIED_ARTIST",
+                        "tooltip": "Official Artist Channel",
+                        "trackingParams": "CB4QojAYBSITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                      }
+                    }
+                  ],
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLR2Gw0OrP7JI-T8F2EUN7EnnmjMklRCE0",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/CwvhSnkPqK8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "TOTO",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB4QojAYBSITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCo0VtmTVw5B1nMlzOX8KW1A",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCo0VtmTVw5B1nMlzOX8KW1A",
+                            "canonicalBaseUrl": "/channel/UCo0VtmTVw5B1nMlzOX8KW1A"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLaTU5viMbQpcOwqDRhjwVcvaIz7rxloj0",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Totò film completi."
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "elio brasini",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB0QojAYBiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCgCzKnVbH80VmPhObjKkIkQ",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCgCzKnVbH80VmPhObjKkIkQ"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "73"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CB0QojAYBiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLaTU5viMbQpcOwqDRhjwVcvaIz7rxloj0",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLaTU5viMbQpcOwqDRhjwVcvaIz7rxloj0"
+                    }
+                  },
+                  "publishedTimeText": {
+                    "runs": [
+                      {
+                        "text": "Updated yesterday"
+                      }
+                    ]
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "73"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CB0QojAYBiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/e6Ls3AQ79JI/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "73",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLaTU5viMbQpcOwqDRhjwVcvaIz7rxloj0",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/pwhJK4VRKAo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "elio brasini",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CB0QojAYBiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCgCzKnVbH80VmPhObjKkIkQ",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCgCzKnVbH80VmPhObjKkIkQ"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLXHYd9DRmGsA-l-ocHdRKmion66OSK9GE",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/UlFU8fPGezk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/UlFU8fPGezk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/UlFU8fPGezk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO - Old is New (2019)"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "BEN1EK",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBwQojAYByITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/BEN1EK",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UC3XDjJJKKD0qv9fFaOp9Jiw",
+                            "canonicalBaseUrl": "/user/BEN1EK"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBwQojAYByITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLXHYd9DRmGsA-l-ocHdRKmion66OSK9GE",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLXHYd9DRmGsA-l-ocHdRKmion66OSK9GE"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBwQojAYByITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/_APZwDNb4aM/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/tI0BtBR65VI/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "10",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLXHYd9DRmGsA-l-ocHdRKmion66OSK9GE",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/UlFU8fPGezk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/UlFU8fPGezk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/UlFU8fPGezk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "BEN1EK",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBwQojAYByITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/BEN1EK",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UC3XDjJJKKD0qv9fFaOp9Jiw",
+                            "canonicalBaseUrl": "/user/BEN1EK"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PL6iwVd4idyZx9bK9d4YlPI2PpfAlcQoRQ",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO Greatest Hits"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "BRAWN7624",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBsQojAYCCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/BRAWN7624",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCWEqVU4aCrLmbKHQPvgTJvw",
+                            "canonicalBaseUrl": "/user/BRAWN7624"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "13"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBsQojAYCCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PL6iwVd4idyZx9bK9d4YlPI2PpfAlcQoRQ",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPL6iwVd4idyZx9bK9d4YlPI2PpfAlcQoRQ"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "13"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBsQojAYCCITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/3WlRcAGbkpw/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/rQysrhYnWHg/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "13",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PL6iwVd4idyZx9bK9d4YlPI2PpfAlcQoRQ",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "BRAWN7624",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBsQojAYCCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/BRAWN7624",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCWEqVU4aCrLmbKHQPvgTJvw",
+                            "canonicalBaseUrl": "/user/BRAWN7624"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLsf1i0Ym0yk4HA1VMzjLhvD8ZIlXCvL1D",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Regarder Les blagues de Toto -2020 Film complet"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Annabella Panicucci",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBoQojAYCSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCBOEmuhNtUrKb76rTNJYjlg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCBOEmuhNtUrKb76rTNJYjlg"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "81"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBoQojAYCSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLsf1i0Ym0yk4HA1VMzjLhvD8ZIlXCvL1D",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLsf1i0Ym0yk4HA1VMzjLhvD8ZIlXCvL1D"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "81"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBoQojAYCSITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/IANO56K_UVw/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/oZThB7gPKIk/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "81",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLsf1i0Ym0yk4HA1VMzjLhvD8ZIlXCvL1D",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/U_O3MRkFVZs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Annabella Panicucci",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBoQojAYCSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCBOEmuhNtUrKb76rTNJYjlg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCBOEmuhNtUrKb76rTNJYjlg"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PL8AF322C37CE5F5CA",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/zeN8C8glu-s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/zeN8C8glu-s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/zeN8C8glu-s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Toto - Angolano"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Antonio Barata",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBkQojAYCiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/antbarath",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCXM30ZBWcw1B90wENZqU7Dg",
+                            "canonicalBaseUrl": "/user/antbarath"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "24"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBkQojAYCiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PL8AF322C37CE5F5CA",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPL8AF322C37CE5F5CA"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "24"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBkQojAYCiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/me4Al1EYi5U/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/sGz88F8-KVU/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "24",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PL8AF322C37CE5F5CA",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/zeN8C8glu-s/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/zeN8C8glu-s/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/zeN8C8glu-s/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Antonio Barata",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBkQojAYCiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/antbarath",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCXM30ZBWcw1B90wENZqU7Dg",
+                            "canonicalBaseUrl": "/user/antbarath"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLPMS_szp_2fiqSSqhEcdCI72ZT5MXZIsQ",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO - Falling in Between LIVE in Paris 2007"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "tomemac1127",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBgQojAYCyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/tomemac1127",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCJTt8P1otxOsOTY_HQn23rg",
+                            "canonicalBaseUrl": "/user/tomemac1127"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "21"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBgQojAYCyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLPMS_szp_2fiqSSqhEcdCI72ZT5MXZIsQ",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLPMS_szp_2fiqSSqhEcdCI72ZT5MXZIsQ"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "21"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBgQojAYCyITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/ZyLnKmqPD9k/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/PE1YdaloDGc/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "21",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLPMS_szp_2fiqSSqhEcdCI72ZT5MXZIsQ",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/3o1JMlVNMcs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "tomemac1127",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBgQojAYCyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/tomemac1127",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCJTt8P1otxOsOTY_HQn23rg",
+                            "canonicalBaseUrl": "/user/tomemac1127"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLOkmPTALUZ9yGK9IwOUNgeRwmmhbas5Uj",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/H9v53PgxfCA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/H9v53PgxfCA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/H9v53PgxfCA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Toto - Mindfields"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Chris Iorio",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBcQojAYDCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UC8R86HYLvib789gsP9iUMLg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UC8R86HYLvib789gsP9iUMLg"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "14"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBcQojAYDCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLOkmPTALUZ9yGK9IwOUNgeRwmmhbas5Uj",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLOkmPTALUZ9yGK9IwOUNgeRwmmhbas5Uj"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "14"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBcQojAYDCITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/FnlAWZ_PlUk/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/RnBjMr1l5w4/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "14",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLOkmPTALUZ9yGK9IwOUNgeRwmmhbas5Uj",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/H9v53PgxfCA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/H9v53PgxfCA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/H9v53PgxfCA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Chris Iorio",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBcQojAYDCITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UC8R86HYLvib789gsP9iUMLg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UC8R86HYLvib789gsP9iUMLg"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLeChJ_avuyOgP3Me-pg-qkftETsTXQ-8w",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO Playlist"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "feinherb100",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBYQojAYDSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/feinherb100",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCHcHDzRkMR3n2SAFgLNmWmw",
+                            "canonicalBaseUrl": "/user/feinherb100"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "79"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBYQojAYDSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLeChJ_avuyOgP3Me-pg-qkftETsTXQ-8w",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLeChJ_avuyOgP3Me-pg-qkftETsTXQ-8w"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "79"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBYQojAYDSITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/aA6CghcObTE/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/7CQpvc8quQ8/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "79",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLeChJ_avuyOgP3Me-pg-qkftETsTXQ-8w",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "feinherb100",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBYQojAYDSITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/feinherb100",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCHcHDzRkMR3n2SAFgLNmWmw",
+                            "canonicalBaseUrl": "/user/feinherb100"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLDRU8SQovCBxGBmnrW3Yd_yMjIdgK-Ovm",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO  GREATEST HITS"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tina Hennessy",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBUQojAYDiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCKXyjSHG18rM-gfn8kyFQWA",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCKXyjSHG18rM-gfn8kyFQWA"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "13"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBUQojAYDiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLDRU8SQovCBxGBmnrW3Yd_yMjIdgK-Ovm",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLDRU8SQovCBxGBmnrW3Yd_yMjIdgK-Ovm"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "13"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBUQojAYDiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/DWfY9GRe7SI/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/qmOLtTGvsbM/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "13",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLDRU8SQovCBxGBmnrW3Yd_yMjIdgK-Ovm",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/2k1RUGWkf9o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tina Hennessy",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBUQojAYDiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCKXyjSHG18rM-gfn8kyFQWA",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCKXyjSHG18rM-gfn8kyFQWA"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLb-_P-DDsHq0sauXV3U_rO4E9hhihuBlH",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Toto (Complete Discography)"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tor Anders Bye",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBQQojAYDyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCGUL03VGkPkDHhDZ6uL9f3w",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCGUL03VGkPkDHhDZ6uL9f3w"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "127"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBQQojAYDyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLb-_P-DDsHq0sauXV3U_rO4E9hhihuBlH",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLb-_P-DDsHq0sauXV3U_rO4E9hhihuBlH"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "127"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBQQojAYDyITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/3CA6X0Zx3lg/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/9TV_hBpNS7E/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "127",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLb-_P-DDsHq0sauXV3U_rO4E9hhihuBlH",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/xSQLmnQ0QoE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Tor Anders Bye",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBQQojAYDyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCGUL03VGkPkDHhDZ6uL9f3w",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCGUL03VGkPkDHhDZ6uL9f3w"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLn9RghvrxEL_KQwkRM3BQjLoqsE25STAg",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Toto Falling in Between Album"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Leverton",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBMQojAYECITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/agustineljaguar",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCWRtAo1uq2a6uEk06u34uoA",
+                            "canonicalBaseUrl": "/user/agustineljaguar"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBMQojAYECITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLn9RghvrxEL_KQwkRM3BQjLoqsE25STAg",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLn9RghvrxEL_KQwkRM3BQjLoqsE25STAg"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "10"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBMQojAYECITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/5nSDxo9HFaM/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/_GAxVf8jdLw/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "10",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLn9RghvrxEL_KQwkRM3BQjLoqsE25STAg",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/1MP-JkSPfRg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Leverton",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBMQojAYECITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/agustineljaguar",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCWRtAo1uq2a6uEk06u34uoA",
+                            "canonicalBaseUrl": "/user/agustineljaguar"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLfeFiqqWWbJsLWZ-gHdZ6Vb92WWL7Dzpd",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "Toto Bona Lokua - Toto Bona Lokua (Full Album)"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "NO FORMAT!",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBIQojAYESITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/NoFormatrecords",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCNdmmP4JhJQjrk70IPekpdg",
+                            "canonicalBaseUrl": "/user/NoFormatrecords"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "12"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBIQojAYESITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLfeFiqqWWbJsLWZ-gHdZ6Vb92WWL7Dzpd",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLfeFiqqWWbJsLWZ-gHdZ6Vb92WWL7Dzpd"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "12"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBIQojAYESITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/n0T2rrzW6BQ/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/BMKumbmrjvc/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "12",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLfeFiqqWWbJsLWZ-gHdZ6Vb92WWL7Dzpd",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/uZLvUNZZQ3E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "NO FORMAT!",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBIQojAYESITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/NoFormatrecords",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCNdmmP4JhJQjrk70IPekpdg",
+                            "canonicalBaseUrl": "/user/NoFormatrecords"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLFW1lCkjMVhfgOjPZeoJnuQSFM-iTo_p5",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO 40 Tours Around The Sun - The ACTUAL playlist ...and more"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "RadDudeski69",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBEQojAYEiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/RadDudeski69",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCifY9OYGPSLXufjK8volgag",
+                            "canonicalBaseUrl": "/user/RadDudeski69"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "31"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBEQojAYEiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLFW1lCkjMVhfgOjPZeoJnuQSFM-iTo_p5",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLFW1lCkjMVhfgOjPZeoJnuQSFM-iTo_p5"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "31"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBEQojAYEiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/XlwBYxGmuEg/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/AGq4BNfiOhA/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "31",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLFW1lCkjMVhfgOjPZeoJnuQSFM-iTo_p5",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/jhHUHcG_VVQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "RadDudeski69",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBEQojAYEiITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/user/RadDudeski69",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCifY9OYGPSLXufjK8volgag",
+                            "canonicalBaseUrl": "/user/RadDudeski69"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "compactPlaylistRenderer": {
+                  "playlistId": "PLA2-nXsHvm3LLbne4dNkXXFtP6uldw-jP",
+                  "thumbnail": {
+                    "thumbnails": [
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                      },
+                      {
+                        "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                      }
+                    ]
+                  },
+                  "title": {
+                    "runs": [
+                      {
+                        "text": "TOTO - IV [1982]"
+                      }
+                    ]
+                  },
+                  "shortBylineText": {
+                    "runs": [
+                      {
+                        "text": "Stefan PG Johansson",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBAQojAYEyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCq86a_QcWq4GvipLcwGjNgg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCq86a_QcWq4GvipLcwGjNgg"
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  "videoCountText": {
+                    "runs": [
+                      {
+                        "text": "11"
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "navigationEndpoint": {
+                    "clickTrackingParams": "CBAQojAYEyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                    "commandMetadata": {
+                      "webCommandMetadata": {
+                        "url": "/playlist?list=PLA2-nXsHvm3LLbne4dNkXXFtP6uldw-jP",
+                        "webPageType": "WEB_PAGE_TYPE_PLAYLIST",
+                        "rootVe": 5754,
+                        "apiUrl": "/youtubei/v1/browse"
+                      }
+                    },
+                    "browseEndpoint": {
+                      "browseId": "VLPLA2-nXsHvm3LLbne4dNkXXFtP6uldw-jP"
+                    }
+                  },
+                  "videoCountShortText": {
+                    "runs": [
+                      {
+                        "text": "11"
+                      }
+                    ]
+                  },
+                  "trackingParams": "CBAQojAYEyITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                  "sidebarThumbnails": [
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/3WlRcAGbkpw/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    },
+                    {
+                      "thumbnails": [
+                        {
+                          "url": "https://i.ytimg.com/vi/rQysrhYnWHg/default.jpg",
+                          "width": 43,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ],
+                  "thumbnailText": {
+                    "runs": [
+                      {
+                        "text": "11",
+                        "bold": true
+                      },
+                      {
+                        "text": " videos"
+                      }
+                    ]
+                  },
+                  "shareUrl": "https://www.youtube.com/playlist?list=PLA2-nXsHvm3LLbne4dNkXXFtP6uldw-jP",
+                  "thumbnailRenderer": {
+                    "playlistVideoThumbnailRenderer": {
+                      "thumbnail": {
+                        "thumbnails": [
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                          },
+                          {
+                            "url": "https://i.ytimg.com/vi/SGtVZgCYVgk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  "longBylineText": {
+                    "runs": [
+                      {
+                        "text": "Stefan PG Johansson",
+                        "navigationEndpoint": {
+                          "clickTrackingParams": "CBAQojAYEyITCKjVtOSlxO4CFW408QUdeV0JzTIGc2VhcmNo",
+                          "commandMetadata": {
+                            "webCommandMetadata": {
+                              "url": "/channel/UCq86a_QcWq4GvipLcwGjNgg",
+                              "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                              "rootVe": 3611,
+                              "apiUrl": "/youtubei/v1/browse"
+                            }
+                          },
+                          "browseEndpoint": {
+                            "browseId": "UCq86a_QcWq4GvipLcwGjNgg"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ],
+            "trackingParams": "CA8Quy8YACITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+          }
+        },
+        {
+          "continuationItemRenderer": {
+            "trigger": "CONTINUATION_TRIGGER_ON_ITEM_SHOWN",
+            "continuationEndpoint": {
+              "clickTrackingParams": "CAIQui8iEwio1bTkpcTuAhVuNPEFHXldCc0=",
+              "commandMetadata": {
+                "webCommandMetadata": {
+                  "sendPost": true,
+                  "apiUrl": "/youtubei/v1/search"
+                }
+              },
+              "continuationCommand": {
+                "token": "EsgIEgR0b3RvGtgHRWdJUUEwZ1VnZ0VpVUV4S05FTlJiRnBsYjFGUFdHMTNPVjlMYlhjeFlWZFBXRFZTWTFBNVR6a3RaNElCSWxCTVFUSXRibGh6U0hadE0wdEhNa2xJYmtOM1MxZHNhbkl4VEc1clNrNVljMmFDQVNKUVRGTTNjRXBJVjBWbFRWOVRSRkJwVm1oSU4weGxUR3h6UkZkcmVubGtkMGxKZ2dFaVVFeFVORVl4YlUxWmVVVjZORFpqYzBwSVN6TnNiM2hGVkZKalVEZG1WRkZPUVlJQklsQk1YMEprU1VwRlEzZFdZVFpGTkhocGEzRlRabkpaU1ZreWVHMXNVVXBIZW5PQ0FTSlFURkl5UjNjd1QzSlFOMHBKTFZRNFJqSkZWVTQzUlc1dWJXcE5hMnhTUTBVd2dnRWlVRXhoVkZVMWRtbE5ZbEZ3WTA5M2NVUlNhR3AzVm1OMllVbDZOM0o0Ykc5cU1JSUJJbEJNV0VoWlpEbEVVbTFIYzBFdGJDMXZZMGhrVWt0dGFXOXVOalpQVTBzNVIwV0NBU0pRVERacGQxWmtOR2xrZVZwNE9XSkxPV1EwV1d4UVNUSlFjR1pCYkdOUmIxSlJnZ0VpVUV4elpqRnBNRmx0TUhsck5FaEJNVlpOZW1wTWFIWkVPRnBKYkZoRGRrd3hSSUlCRWxCTU9FRkdNekl5UXpNM1EwVTFSalZEUVlJQklsQk1VRTFUWDNONmNGOHlabWx4VTFOeGFFVmpaRU5KTnpKYVZEVk5XRnBKYzFHQ0FTSlFURTlyYlZCVVFVeFZXamw1UjBzNVNYZFBWVTVuWlZKM2JXMW9ZbUZ6TlZWcWdnRWlVRXhsUTJoS1gyRjJkWGxQWjFBelRXVXRjR2N0Y1d0bWRFVlVjMVJZVVMwNGQ0SUJJbEJNUkZKVk9GTlJiM1pEUW5oSFFtMXVjbGN6V1dSZmVVMXFTV1JuU3kxUGRtMkNBU0pRVEdJdFgxQXRSRVJ6U0hFd2MyRjFXRll6VlY5eVR6UkZPV2hvYVdoMVFteElnZ0VpVUV4dU9WSm5hSFp5ZUVWTVgwdFJkMnRTVFROQ1VXcE1iM0Z6UlRJMVUxUkJaNElCSWxCTVptVkdhWEZ4VjFkaVNuTk1WMW90WjBoa1dqWldZamt5VjFkTU4wUjZjR1NDQVNKUVRFWlhNV3hEYTJwTlZtaG1aMDlxVUZwbGIwcHVkVkZUUmswdGFWUnZYM0ExZ2dFaVVFeEJNaTF1V0hOSWRtMHpURXhpYm1VMFpFNXJXRmhHZEZBMmRXeGtkeTFxVUpnQkFRJTNEJTNEygFkGhVodHRwczovL20ueW91dHViZS5jb20iACpJaHR0cHM6Ly9tLnlvdXR1YmUuY29tL3Jlc3VsdHM_c2VhcmNoX3F1ZXJ5PXRvdG8maGw9ZW4mc3A9RWdJUUF3JTI1M0QlMjUzRBiB4OgYIgtzZWFyY2gtZmVlZA%3D%3D",
+                "request": "CONTINUATION_REQUEST_TYPE_SEARCH"
+              }
+            }
+          }
+        }
+      ],
+      "continuations": [
+        {
+          "reloadContinuationData": {
+            "continuation": "EnsSBHRvdG8aDEVnSVFBdyUzRCUzRMoBZBoVaHR0cHM6Ly9tLnlvdXR1YmUuY29tIgAqSWh0dHBzOi8vbS55b3V0dWJlLmNvbS9yZXN1bHRzP3NlYXJjaF9xdWVyeT10b3RvJmhsPWVuJnNwPUVnSVFBdyUyNTNEJTI1M0QYgeDoGA%3D%3D",
+            "clickTrackingParams": "CA4QxqYCIhMIqNW05KXE7gIVbjTxBR15XQnN"
+          }
+        }
+      ],
+      "trackingParams": "CAIQui8iEwio1bTkpcTuAhVuNPEFHXldCc0=",
+      "subMenu": {
+        "searchSubMenuRenderer": {
+          "title": {
+            "runs": [
+              {
+                "text": "Search options"
+              }
+            ]
+          },
+          "groups": [
+            {
+              "searchFilterGroupRenderer": {
+                "title": {
+                  "simpleText": "Type"
+                },
+                "filters": [
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "All"
+                      },
+                      "navigationEndpoint": {
+                        "clickTrackingParams": "CA0Qk3UYACITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "url": "/results?search_query=toto",
+                            "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                            "rootVe": 4724
+                          }
+                        },
+                        "searchEndpoint": {
+                          "query": "toto"
+                        }
+                      },
+                      "tooltip": "Search for All",
+                      "trackingParams": "CA0Qk3UYACITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "Channel"
+                      },
+                      "navigationEndpoint": {
+                        "clickTrackingParams": "CAwQk3UYASITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "url": "/results?search_query=toto&sp=EgIQAg%253D%253D",
+                            "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                            "rootVe": 4724
+                          }
+                        },
+                        "searchEndpoint": {
+                          "query": "toto",
+                          "params": "EgIQAg%3D%3D"
+                        }
+                      },
+                      "tooltip": "Search for Channel",
+                      "trackingParams": "CAwQk3UYASITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "Playlist"
+                      },
+                      "status": "FILTER_STATUS_SELECTED",
+                      "navigationEndpoint": {
+                        "clickTrackingParams": "CAsQk3UYAiITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "url": "/results?search_query=toto",
+                            "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                            "rootVe": 4724
+                          }
+                        },
+                        "searchEndpoint": {
+                          "query": "toto"
+                        }
+                      },
+                      "tooltip": "Remove Playlist filter",
+                      "trackingParams": "CAsQk3UYAiITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  }
+                ],
+                "trackingParams": "CAoQknUYACITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+              }
+            },
+            {
+              "searchFilterGroupRenderer": {
+                "title": {
+                  "simpleText": "Upload date"
+                },
+                "filters": [
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "Anytime"
+                      },
+                      "status": "FILTER_STATUS_SELECTED",
+                      "navigationEndpoint": {
+                        "clickTrackingParams": "CAkQk3UYACITCKjVtOSlxO4CFW408QUdeV0JzQ==",
+                        "commandMetadata": {
+                          "webCommandMetadata": {
+                            "url": "/results?search_query=toto&sp=EgIQAw%253D%253D",
+                            "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                            "rootVe": 4724
+                          }
+                        },
+                        "searchEndpoint": {
+                          "query": "toto",
+                          "params": "EgIQAw%3D%3D"
+                        }
+                      },
+                      "tooltip": "Remove Anytime filter",
+                      "trackingParams": "CAkQk3UYACITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "Today"
+                      },
+                      "status": "FILTER_STATUS_DISABLED",
+                      "tooltip": "Search for Today",
+                      "trackingParams": "CAgQk3UYASITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "This week"
+                      },
+                      "status": "FILTER_STATUS_DISABLED",
+                      "tooltip": "Search for This week",
+                      "trackingParams": "CAcQk3UYAiITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "This month"
+                      },
+                      "status": "FILTER_STATUS_DISABLED",
+                      "tooltip": "Search for This month",
+                      "trackingParams": "CAYQk3UYAyITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  },
+                  {
+                    "searchFilterRenderer": {
+                      "label": {
+                        "simpleText": "This year"
+                      },
+                      "status": "FILTER_STATUS_DISABLED",
+                      "tooltip": "Search for This year",
+                      "trackingParams": "CAUQk3UYBCITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+                    }
+                  }
+                ],
+                "trackingParams": "CAQQknUYASITCKjVtOSlxO4CFW408QUdeV0JzQ=="
+              }
+            }
+          ],
+          "clearAllText": {
+            "runs": [
+              {
+                "text": "Clear all filters"
+              }
+            ]
+          },
+          "clearAllEndpoint": {
+            "clickTrackingParams": "CAMQkXUiEwio1bTkpcTuAhVuNPEFHXldCc0=",
+            "commandMetadata": {
+              "webCommandMetadata": {
+                "url": "/results?search_query=toto",
+                "webPageType": "WEB_PAGE_TYPE_SEARCH",
+                "rootVe": 4724
+              }
+            },
+            "searchEndpoint": {
+              "query": "toto"
+            }
+          },
+          "trackingParams": "CAMQkXUiEwio1bTkpcTuAhVuNPEFHXldCc0="
+        }
+      },
+      "hideBottomSeparator": true,
+      "targetId": "search-feed"
+    }
+  },
+  "trackingParams": "CAAQvGkiEwio1bTkpcTuAhVuNPEFHXldCc0=",
+  "topbar": {
+    "mobileTopbarRenderer": {
+      "trackingParams": "CAEQwbIBIhMIqNW05KXE7gIVbjTxBR15XQnN",
+      "searchCommand": {
+        "clickTrackingParams": "CAEQwbIBIhMIqNW05KXE7gIVbjTxBR15XQnN",
+        "commandMetadata": {
+          "webCommandMetadata": {
+            "url": "/results?search_query=&sp=mAEA",
+            "webPageType": "WEB_PAGE_TYPE_SEARCH",
+            "rootVe": 4724
+          }
+        },
+        "searchEndpoint": {
+          "params": "mAEA",
+          "hack": true
+        }
+      }
+    }
+  },
+  "adSafetyReason": {
+    "isCrosswalk": true
+  }
+}
