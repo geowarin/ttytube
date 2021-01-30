@@ -1,7 +1,7 @@
 import * as React from "react";
 import {Command, flags} from '@oclif/command';
 import {Box, render, Text, useApp, useInput} from 'ink';
-import {search, SearchResult} from "../search/search";
+import {search, Video} from "../search/search";
 import {readFileSync} from "fs";
 import {playVideo} from "../video/playVideo";
 import {strip, replace} from "clean-text-utils";
@@ -24,7 +24,7 @@ export default class Search extends Command {
     let results;
     if (flags.file) {
       const file = readFileSync(flags.file);
-      results = JSON.parse(file.toString()) as SearchResult[];
+      results = JSON.parse(file.toString()) as Video[];
     } else {
       if (args.search == null) {
         throw new Error("No search query");
@@ -41,7 +41,7 @@ export default class Search extends Command {
 }
 
 interface SearchScreenProps {
-  results: SearchResult[]
+  results: Video[]
 }
 
 const SearchScreen: React.FunctionComponent<SearchScreenProps> = ({results}) => {
@@ -77,7 +77,7 @@ const SearchScreen: React.FunctionComponent<SearchScreenProps> = ({results}) => 
 };
 
 interface LineProps {
-  searchResult: SearchResult,
+  searchResult: Video,
   selected: boolean
 }
 

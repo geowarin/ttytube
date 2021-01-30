@@ -11,14 +11,6 @@ function toQueryType(type: string): QueryType | undefined {
     default:
       return QueryType.video;
   }
-
-
-  if (type == "all") {
-    return undefined;
-  }
-  else {
-    return type as QueryType;
-  }
 }
 
 

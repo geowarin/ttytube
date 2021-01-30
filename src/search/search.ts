@@ -5,7 +5,7 @@ const headers = {
   "User-Agent": "Mozilla/5.0 (Android 10; Tablet; rv:82.0) Gecko/82.0 Firefox/82.0,gzip(gfe)"
 };
 
-export interface SearchResult {
+export interface Video {
   videoId: string
   title: string
   /**
@@ -29,6 +29,23 @@ export interface SearchResult {
   publishedTime: string
 }
 
+export interface Playlist {
+  playlistId: string
+  title: string
+  longByline: string
+  shortByline: string
+  publishedTime: string
+  videoCount: string
+}
+
+export interface Channel {
+  channelId: string
+  title: string
+  displayName: string
+  videoCount: string
+  subscriberCount: string
+}
+
 export enum QueryType {
   "video" = "EgIQAQ%3D%3D",
   "playlist" = "EgIQAw%3D%3D",
@@ -40,7 +57,7 @@ export async function fetchYoutubeData(search: string, type?: QueryType) {
   return getYtData(html);
 }
 
-export async function search(search: string, type?: QueryType): Promise<SearchResult[]> {
+export async function search(search: string, type?: QueryType): Promise<Video[]> {
   try {
     const ytData = await fetchYoutubeData(search, type);
     return parseYtData(ytData);
@@ -57,27 +74,58 @@ export function parseYtData(ytData: any) {
   }
 
   const results = contents?.[0]?.itemSectionRenderer?.contents;
-  // sometimes content[1] ?
   if (results == null) {
     throw new Error("Could not parse youtube results (unknown structure)");
   }
 
   return results.map((r: any) => {
-    return {
-      videoId: r.compactVideoRenderer.videoId,
-      title: getProperty(r, "title", "?"),
-      viewCount: getProperty(r, "viewCountText", "0 views"),
-      shortViewCount: getProperty(r, "shortViewCountText", "0 views"),
-      length: getProperty(r, "lengthText", "live"),
-      longByline: getProperty(r, "longBylineText", "?"),
-      shortByline: getProperty(r, "shortBylineText", "?"),
-      publishedTime: getProperty(r, "publishedTimeText", "?"),
+    if (r["compactVideoRenderer"]) {
+      return video(r.compactVideoRenderer);
     }
-  });
+    if (r["compactPlaylistRenderer"]) {
+      return playlist(r.compactPlaylistRenderer);
+    }
+    if (r["compactChannelRenderer"]) {
+      return channel(r.compactChannelRenderer);
+    }
+  }).filter(Boolean);
+}
+
+function video(renderer: any): Video {
+  return {
+    videoId: renderer.videoId,
+    title: getProperty(renderer, "title", "?"),
+    viewCount: getProperty(renderer, "viewCountText", "0 views"),
+    shortViewCount: getProperty(renderer, "shortViewCountText", "0 views"),
+    length: getProperty(renderer, "lengthText", "live"),
+    longByline: getProperty(renderer, "longBylineText", "?"),
+    shortByline: getProperty(renderer, "shortBylineText", "?"),
+    publishedTime: getProperty(renderer, "publishedTimeText", "?"),
+  }
+}
+
+function playlist(renderer: any): Playlist {
+  return {
+    playlistId: renderer.playlistId,
+    title: getProperty(renderer, "title", "?"),
+    longByline: getProperty(renderer, "longBylineText", "?"),
+    shortByline: getProperty(renderer, "shortBylineText", "?"),
+    publishedTime: getProperty(renderer, "publishedTimeText", "?"),
+    videoCount: getProperty(renderer, "videoCountText", "0")
+  }
+}
+function channel(renderer: any): Channel {
+  return {
+    channelId: renderer.channelId,
+    title: getProperty(renderer, "title", "?"),
+    videoCount: getProperty(renderer, "videoCountText", "0"),
+    displayName: getProperty(renderer, "displayName", "?"),
+    subscriberCount: getProperty(renderer, "subscriberCountText", "0 subscribers")
+  }
 }
 
 function getProperty(r: any, property: string, defaultValue: string) {
-  return r.compactVideoRenderer[property]?.runs?.[0]?.text ?? defaultValue;
+  return r[property]?.runs?.[0]?.text ?? defaultValue;
 }
 
 async function getYoutubeSearchHtml(search: string, type?: QueryType): Promise<string> {
